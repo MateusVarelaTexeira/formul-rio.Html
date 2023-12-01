@@ -1,0 +1,39 @@
+* { } - Afeta todos os elementos da página.
+
+tag { } - Afeta todos os elementos dessa tag.
+
+.classe { } - Afeta todos os elementos com essa classe.
+
+#identificador { } - Afeta todos os elementos com esse ID.
+
+[atributo] { } - Afeta todos os elementos que contenham esse atributo.
+
+[atributo=valor] { } - Afeta todos os elementos que contenham esse atributo com esse valor.
+
+[atributo*=valor] { } - Afeta todos os elementos que contenham esse valor em algum lugar desse atributo.
+
+
+
+Seletores Combinadores:
+
+elem1 elem2 { } - Afeta todos os elem2 que sejam descendentes de elem1 (Seja filhos diretos ou não).
+
+elem1 > elem2 { } - Afeta todos os elem2 que sejam filhos diretos de elem1.
+
+elem1 + elem2 { } - Afeta o elem2 seguinte de elem1, ambos com o mesmo pai (irmãos adjacentes).
+
+elem1 ~ elem2 { } - Afeta todos os elem2 seguintes de elem1, todos com o mesmo pai (irmãos de forma geral).
+
+
+
+Seletores PseudoClasses:
+
+São palavras-chaves adicionadas aos seletores que especificam um estado especial do elemento selecionado.
+
+elemento:pseudoclasse { }
+
+Exemplos de pseudoclasses:
+:hover - Aparece ao passar o mouse por cima.
+:active - aparece quando o elemento é ativado/clicado.
+:visited - Aparece quando o elemento/link já foi visitado.
+:focus - Aparece quando o elemento recebe foco, como quando é selecionado com o teclado, por exemplo.
